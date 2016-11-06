@@ -32,7 +32,7 @@
         </div>
             <form id="formwhatever" action="" method="post" name="form" enctype="multipart/form-data">
                 <div class="row marketing">
-                    <p>Finds the all the zip codes for an entered zip code and within the radius selected.</p>
+                    <p>Organic version of the Zip Radius Tool API that uses a MySQL database of zip codes and corresponding lats and longs to finds the zip codes for a list of  zip codes  within the radius selected.</p>
 
                     <div class="col-lg-8">
                         <div class="panel panel-info">

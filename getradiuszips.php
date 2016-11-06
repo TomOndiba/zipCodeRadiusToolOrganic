@@ -1,8 +1,8 @@
 <?php
 //echo phpinfo();
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
 
 //increase memory
 ini_set('memory_limit','64M');
@@ -136,8 +136,6 @@ foreach($zipArrTrimed as $zip){
                     )
          */
         
-        //save the initial zip
-        
         //search the rough arr to find which zips are within the search radius
         foreach ($overSizedAreaZipsArr as $ele) {
             
@@ -159,16 +157,6 @@ $returnZipArr = array_unique($returnZipArr);
 //encode and resequence the array index so json doesn't convert it into an object
 echo json_encode(array_values($returnZipArr));
 die();
-
-function parsezips($output){
-    
-    $yo=json_decode($output);
-    
-    foreach($yo->zip_codes as $ele){
-    $zipsArr[]=$ele->zip_code;
-    }
-    return $zipsArr;
-}
 
 function IsNullOrEmptyString($input){
     return (!isset($input) || trim($input)==='');
