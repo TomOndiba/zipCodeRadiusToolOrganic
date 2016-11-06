@@ -76,7 +76,7 @@
              
       <footer class="footer">
              <p>
-                <a href="https://github.com/pwingard/zipCodeRadiusTool">Git</a>&nbsp;&middot;&nbsp;
+                <a href="https://github.com/pwingard/zipCodeRadiusToolOrganic">Git</a>&nbsp;&middot;&nbsp;
                 <a href="https://www.linkedin.com/in/pwingard">LinkedIn</a>
             </p>
           
